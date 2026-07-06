@@ -1,4 +1,4 @@
-# sf-crime-data-story
+# j24-final-project
 Crime reports across San Francisco in 2025
 sf-crime-data-story/
 │
