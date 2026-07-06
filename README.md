@@ -1,6 +1,6 @@
 # Crime reports across San Francisco in 2025
 
-Crime data can help communitites, researchers, and city officials understand where public safety resources may be needed. However, crime statistics should always be interpreted carefully because reported crime is not the same as actual crime. Many incidents are never reported, and neighborhoods with more visitors or businesses may naturally have higher number of reports. 
+Crime data can help communities, researchers, and city officials understand where public safety resources may be needed. However, crime statistics should always be interpreted carefully because reported crime is not the same as actual crime. Many incidents are never reported, and neighborhoods with more visitors or businesses may naturally have higher number of reports. 
   
 This project examines police incident reports from 2025 in San Francisco to answer two questions:
 1. Which neighborhoods had the highest number of reported incidents?
@@ -9,7 +9,7 @@ This project examines police incident reports from 2025 in San Francisco to answ
 The analysis was completed using Google Sheets pivot tables and charts. 
 
 ## Original Source of Data
-The dataset is published through the San Fancisco Open Data Portal: Public Safety, which is maintained by the City and County of San Francisco. 
+The dataset is published through the San Francisco Open Data Portal: Public Safety, which is maintained by the City and County of San Francisco. 
 
 Dataset: San Francisco Police Department(SFPD): 2018-Present
 
@@ -17,7 +17,7 @@ Dataset: San Francisco Police Department(SFPD): 2018-Present
 The San Francisco Police Department records incidents that officers respond to or document. The data is made publicly available to improve transparency and allow researchers, journalists, and residents to better understand crime trends throughout the city. 
 
 ### Is this source trustworthy?
-Because the data comes directly from the San Francisco Police Department and is distributed through the city's official Open Data Portal, it is considered a reliable government saource. However, like any dataset, it has limitations. It only includes crimes that were reported or recorded by police and may contain reporting delays or updates after publication. 
+Because the data comes directly from the San Francisco Police Department and is distributed through the city's official Open Data Portal, it is considered a reliable government source. However, like any dataset, it has limitations. It only includes crimes that were reported or recorded by police and may contain reporting delays or updates after publication. 
 
 ## Data Cleaning and Analysis
 The original dataset contained 1,043,833 police reports covering the years 2018-2025. 
@@ -29,21 +29,22 @@ To focus the analysis:
 
 ## Findings
 
-## Chart 1: Reported Incidents by Neighborhood (2025)
+# Chart 1: Reported Incidents by Neighborhood (2025)
 
-[Neighborhood Chart](charts/Chart1_neighborhoods.png)
+<img width="600" height="371" alt="Chart1-neighborhoods" src="https://github.com/user-attachments/assets/252973ba-7dfb-4e0b-8ccd-7ee033d22c9d" />
+
 
 **Figure 1.** Number of reported police incidents by neighborhood in San Francisco during 2025. The Tenderloin, South of Market, and Mission neighborhoods reported the highest numbers of incidents. 
 
-Several neighborhoods reported substaintially more incidents than others. The Tenderloin (12,432 incidents) had the largest number of reported police incidents during 2025, followed closely by South of Market (SoMa) (11,916 incidents) and the Mission District (11,547 incidents). These neighborhoods contain dense residential areas, businesses, entertainment districts, public transportation hubs, and high number of visitors. Higher numbers of reported incidents do not necessarily mean these neighborhoods are the "most dangerous." They may reflect higher population density, more opportunities for reporting, and greater police presence. 
+Several neighborhoods reported substantially more incidents than others. The Tenderloin (12,432 incidents) had the largest number of reported police incidents during 2025, followed closely by South of Market (SoMa) (11,916 incidents) and the Mission District (11,547 incidents). These neighborhoods contain dense residential areas, businesses, entertainment districts, public transportation hubs, and high number of visitors. Higher numbers of reported incidents do not necessarily mean these neighborhoods are the "most dangerous." They may reflect higher population density, more opportunities for reporting, and greater police presence. 
 
-## Chart 2: Reported Incidents by Month
+# Chart 2: Reported Incidents by Month
 
-[My Google Sheets Chart]([(https://docs.google.com/spreadsheets/d/e/2PACX-1vRxY4yPSKuG9MTDwAv2dzfDqBXQBEw6Az5-lNuvhIQLofprWHd5Zy_gF5t6zfhEJbCEuGZeuYqybpJe/pubchart?oid=1617383426&format=interactive)])
+<img width="600" height="371" alt="Chart2-monthly" src="https://github.com/user-attachments/assets/f8e0798f-bf47-4622-b77f-650e70a3a27d" />
 
 **Figure 2.** Monthly reported police incidents during 2025. Incident totals remained relatively consistent throughout the year.
 
-Crime reports remained relatively stable across the year, with monthly totals varying only modestly. January recorded the largest number of reported incidents, while June and Decemberhad the fewest in this dataset. The consistency suggests that reported crime in San Francisco did not flucuate dramatically from  month to month during 2025, although additional years would be needed to determine whether these patterns are typical. 
+Crime reports remained relatively stable across the year, with monthly totals varying only modestly. January recorded the largest number of reported incidents, while June and December had the fewest in this dataset. The consistency suggests that reported crime in San Francisco did not fluctuate dramatically from  month to month during 2025, although additional years would be needed to determine whether these patterns are typical. 
 
 ## Methods 
 
@@ -54,11 +55,11 @@ The analysis included:
 * In the 'Rows' section, *'the analysis neighborhood'* column was selected in descending order and sorted by COUNTA of Incident Reports
 * In the 'Values' section, *'Incident Reports'* column was inputted and summarized by COUNTA
 * the number of incidents by neighborhood
-* Since the original dataset did not include an "Incident Month" header, it was created in the next open coloumn, I used '=TEXT(C2,"MMM")' which input the months the crime was commited from the "Incident Date" Column.
+* Since the original dataset did not include an "Incident Month" header, it was created in the next open column, I used '=TEXT(C2,"MMM")' which input the months the crime was committed from the "Incident Date" Column.
 * Inputted *'Incident Months'* in the 'Rows' section, ordered by descending and sorted by COUNTA of Incident Number
 * In the 'Values' section, *'Incident Number'* was summarized by COUNTA
 
-The charts summarize large amounts of information in a way that us easier to understand than reading thousdands of individual records. 
+The charts summarize large amounts of information in a way that is easier to understand than reading thousands of individual records. 
 
 ## Limitations 
 
@@ -74,7 +75,7 @@ Because of these limitations, the results should not be interpreted as ranking n
 
 ## Ethical Considerations
 
-Crime statistics can unintentionally reinforce sterotypes about neighborhoods if presented without proper context. Areas with higher numbers of reported incidents often have larger populations, more visitors, or more businesses, all of which increase opportunities for police reports
+Crime statistics can unintentionally reinforce stereotypes about neighborhoods if presented without proper context. Areas with higher numbers of reported incidents often have larger populations, more visitors, or more businesses, all of which increase opportunities for police reports
 
 Responsible reporting should avoid labeling communities as dangerous based solely on incident totals. A more complete story would include interviews with residents, police officials, criminologist, and a population-adjusted crime rate trend.
 
@@ -84,7 +85,7 @@ Presenting data responsibly helps ensure that readers understand both what the d
 
 This project explored police incident reports across San Francisco during 2025 using publicly available data from the San Francisco Police Department. The analysis found that the Tenderloin, South of Market, and Mission District neighborhoods recorded the highest numbers of reported incidents. Monthly totals remained relatively consistent throughout the year, with January reporting the most incidents. 
 
-While these findings reveal where police reports were most frequently recorded, they do not measure the actual amount of crime occuring in each neighborhood or explain why differences exist. Population density, tourism, reporting, and police activity all influence the number of reported incidents. 
+While these findings reveal where police reports were most frequently recorded, they do not measure the actual amount of crime occurring in each neighborhood or explain why differences exist. Population density, tourism, reporting, and police activity all influence the number of reported incidents. 
 
 Future reporting could strengthen this analysis by comparing multiple years, examining specific crime categories, calculating crime rates per capita, and incorporating interviews with community members and public safety officials. By combining quantitative data with additional reporting, journalist can produce a more accurate and balanced understanding of public safety in San Francisco. 
 
@@ -94,11 +95,3 @@ https://docs.google.com/spreadsheets/d/1YbOJusujAC4s1IK707KJ6wSdVIFvqdo1qjo9JLYM
 ## Data Source
 San Francisco Police Department Incident Reports (2018–Present)
 https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Pres/wg3w-h783
-
-│
-├── README.md
-├── charts/
-│   ├── chart1_neighborhoods.png
-│   └── chart2_monthly.png
-├── Police_Department_Incident_Reports__2018_to_Present.csv
-└── GoogleSheetLink.txt
