@@ -29,7 +29,7 @@ To focus the analysis:
 
 ## Findings
 
-# Chart 1: Reported Incidents by Neighborhood (2025)
+### Chart 1: Reported Incidents by Neighborhood (2025)
 
 <img width="600" height="371" alt="Chart1-neighborhoods" src="https://github.com/user-attachments/assets/252973ba-7dfb-4e0b-8ccd-7ee033d22c9d" />
 
@@ -38,7 +38,7 @@ To focus the analysis:
 
 Several neighborhoods reported substantially more incidents than others. The Tenderloin (12,432 incidents) had the largest number of reported police incidents during 2025, followed closely by South of Market (SoMa) (11,916 incidents) and the Mission District (11,547 incidents). These neighborhoods contain dense residential areas, businesses, entertainment districts, public transportation hubs, and high number of visitors. Higher numbers of reported incidents do not necessarily mean these neighborhoods are the "most dangerous." They may reflect higher population density, more opportunities for reporting, and greater police presence. 
 
-# Chart 2: Reported Incidents by Month
+### Chart 2: Reported Incidents by Month
 
 <img width="600" height="371" alt="Chart2-monthly" src="https://github.com/user-attachments/assets/f8e0798f-bf47-4622-b77f-650e70a3a27d" />
 
@@ -64,12 +64,13 @@ The charts summarize large amounts of information in a way that is easier to und
 ## Limitations 
 
 Although this dataset is extensive, several important limitations should be considered. 
-*Google Sheets and Excel could not handle the large file for the amount of police reports, as it spanned over multiple years, leading to 2025 being the main focus. 
-*It only includes crimes that were reported to or recorded by the San Francisco Police Department. 
-*Some Crimes go unreported.
-*Reports may later be updated or reclassified.
-*Neighborhoods differ greatly in population size, tourism, and commercial activity making direct comparisons difficult. 
-*Incident counts do not measure crime rates because they are not adjusted for the population.
+
+* Google Sheets and Excel could not handle the large file for the amount of police reports, as it spanned over multiple years, leading to 2025 being the main focus. 
+* It only includes crimes that were reported to or recorded by the San Francisco Police Department. 
+* Some Crimes go unreported.
+* Reports may later be updated or reclassified.
+* Neighborhoods differ greatly in population size, tourism, and commercial activity making direct comparisons difficult. 
+* Incident counts do not measure crime rates because they are not adjusted for the population.
 
 Because of these limitations, the results should not be interpreted as ranking neighborhoods by overall safety. 
 
