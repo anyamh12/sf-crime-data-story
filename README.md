@@ -33,7 +33,9 @@ To focus the analysis:
 
 <img width="600" height="371" alt="Chart1-neighborhoods" src="https://github.com/user-attachments/assets/252973ba-7dfb-4e0b-8ccd-7ee033d22c9d" />
 
+![sda](Number of Incidents Reported by Neighborhood.png)
 
+![asd](Number of Incidents Reported During Each Month.png)
 **Figure 1.** Number of reported police incidents by neighborhood in San Francisco during 2025. The Tenderloin, South of Market, and Mission neighborhoods reported the highest numbers of incidents. 
 
 Several neighborhoods reported substantially more incidents than others. The Tenderloin (12,432 incidents) had the largest number of reported police incidents during 2025, followed closely by South of Market (SoMa) (11,916 incidents) and the Mission District (11,547 incidents). These neighborhoods contain dense residential areas, businesses, entertainment districts, public transportation hubs, and high number of visitors. Higher numbers of reported incidents do not necessarily mean these neighborhoods are the "most dangerous." They may reflect higher population density, more opportunities for reporting, and greater police presence. 
